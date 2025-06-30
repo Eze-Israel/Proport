@@ -1,5 +1,5 @@
 import React from 'react'
-import Products from '@/Component/ProjectData'
+import Products from '@/components/ProjectData'
 import SectionTitle from './SectionTitle';
 import ProjectCard from './ProjectCard';
 import { useState } from 'react';

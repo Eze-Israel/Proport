@@ -1,13 +1,13 @@
-import Footer from "@/Component/Footer";
-import Header from "@/Component/Header";
-import About from "@/Component/About";
-import Contact from "@/Component/Contact"
-import Projects from "@/Component/Projects"
-import Skills from "../Component/Skills";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import About from "@/components/About";
+import Contact from "@/components/Contact"
+import Projects from "@/components/Projects"
+import Skills from "../components/Skills";
 import { useLayoutEffect } from "react";
-import HeroSection from "@/Component/HeroSection";
-import Scroll from "@/Component/Scroll";
-import Testimonies from "@/Component/Testimonies";
+import HeroSection from "@/components/HeroSection";
+import Scroll from "@/components/Scroll";
+import Testimonies from "@/components/Testimonies";
 
 
 export default function Home(){
