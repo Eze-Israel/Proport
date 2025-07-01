@@ -1,7 +1,6 @@
 import React from 'react'
 import TextAimation from './TextAnimation'
 import Image from 'next/image'
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 
@@ -42,11 +41,11 @@ const HeroSection = () => {
       <p><TextAimation /></p>
 
        <motion.a
-          href="https://wa.me/+2347061033459" rel="norerrer"
+          href="https://wa.me/+2347061033459" rel="norerrer" target='_blank'
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.8 }}
-          className="inline-block mt-6 bg-green-600 text-white px-6 py-3 rounded-full shadow hover:bg-green-700 hover:scale-105 transition-transform duration-300"
+          className="inline-block mt-6 bg-green-600 text-white px-6 py-4 rounded-full shadow hover:bg-green-700 hover:scale-105 transition-transform duration-300"
         >
           Contact Me
         </motion.a>
