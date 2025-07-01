@@ -16,14 +16,18 @@ const Footer = () => {
       <Link href="#contact" > <li className='footlist'>Contact</li></Link> 
       </ul>
      </div>
+
      
+       
      <div className='socials'>
      <FaLinkedin className='linked'/>
-      <a href="">
+      <a  href="https://linkedin.com/in/israel-eze-ab471a305" rel="norerrer">
           </a>
-          <a href="">
-     <FaGithub className="hub"/></a>
-     <a href="">
+
+          <a href="https://github.com/Eze-Israel" target='_blank'>
+
+     <FaGithub className="hub" /></a>
+     <a href="https://wa.me/+2347061033459" rel="norerrer" target='_blank'>
       <FaWhatsapp className='wats' />
       </a>
       </div>
@@ -42,12 +46,3 @@ export default Footer
 
 
 
-
-        // <div className='flex justify-space-between gap-20 border border-white items-center shadow-2xl'>
-        //     <Link href="https://linkedin.com/in/israel-eze-ab471a305" rel="norerrer">
-        //     <FaLinkedin className='text-blue-900 text-4xl mt-8'/></Link>
-        //     <Link href="https://github.com/Eze-Israel" rel='norerrer'>
-        //     <FaGithub  className='text-gray-900 text-4xl  mt-8'/></Link>
-        //     <Link href="https://wa.me/+2347061033459" rel="norerrer">
-        //       <FaWhatsapp  className='text-green-500 text-4xl mt-8' /></Link> 
-        //       </div>
