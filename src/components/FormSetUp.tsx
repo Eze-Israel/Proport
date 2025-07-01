@@ -1,8 +1,7 @@
-import React from 'react';
 
 const FormSetUp = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center px-4 py-12">
+    <section className="min-h-screen bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center ">
       <form
         action="https://formspree.io/f/mqazqpyq"
         method="POST"

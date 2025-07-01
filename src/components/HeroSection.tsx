@@ -61,12 +61,12 @@ const HeroSection = () => {
           <Image
             src="/images/KingT1.png" // 🔁 Replace with your image
             alt="Eze Israel"
-            width={260}
-            height={260}
+            width={360}
+            height={360}
             className="rounded-full object-cover mx-auto border-4 border-green-300 shadow-md"
           />
         </motion.div>
-        
+       
       </motion.div>
   )
 }

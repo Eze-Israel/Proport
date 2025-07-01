@@ -13,10 +13,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",                       // ✅ allows absolute imports with "paths"
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]                    // ✅ maps "@/components/..." to "src/components/..."
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "src/**/*.{js,ts,jsx,tsx}"           // ✅ restrict includes to only files inside `src/`
+  ],
   "exclude": ["node_modules"]
 }
