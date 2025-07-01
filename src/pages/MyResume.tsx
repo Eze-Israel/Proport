@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { FaArrowAltCircleLeft } from 'react-icons/fa'
 
 const MyResume = () => {
-  const CV = "/PDF/ISRAEL_RESUME2025++.pdf"
+  const CV = "/PDF/ISRAEL_RESUME2025+++.pdf"
   useLayoutEffect(() => {
     window.scrollTo(0, 0)
   }, [])

@@ -1,7 +1,7 @@
 
 const FormSetUp = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center ">
+    <section className="min-h-screen bg-gradient-to-br  flex items-center justify-center ">
       <form
         action="https://formspree.io/f/mqazqpyq"
         method="POST"

@@ -183,7 +183,6 @@ html{
   list-style: none;
   text-decoration: none;
   display: block;
-  /* color: rgb(61, 225, 140); */
   color: rgb(218, 113, 43);
 
 }
@@ -359,7 +358,7 @@ background-position: 0% 50%;
   
       .name{
           padding: 0 10px;
-          font-size: x-large;
+          font-size: large;
       }
       .container{
         padding: 0 20px;
