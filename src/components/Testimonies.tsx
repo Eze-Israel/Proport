@@ -254,7 +254,7 @@ const Testimonies = () => {
   return (
     <section
       id="testimonies"
-      className="py-10 px-4 bg-white border-y-2 border-green-100"
+      className="p-8 bg-white border-y-2 border-green-100"
     >
       <SectionTitle title="Testimonials" />
 
