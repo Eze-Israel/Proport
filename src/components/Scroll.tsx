@@ -1,28 +1,3 @@
-// import React from 'react'
-
-// const Scroll = () => {
-
-
-
-//   return (
-//     <>
-//         <div className='swiper-testimonial-container'>
-//         <div className='swiper-testimonial-text'>
-//          <p className='swip-Text'> Ecommerce|| Landing Page|| Fintech Websites|| Logistics Websites||
-//             Company Websites|| Real Estate websites|| Web Applications|| School Result System
-//         </p>
-      
-//         </div>
-//         </div>
-       
-      
-//     </>
-//   )
-// }
-
-// export default Scroll
-
-
 import React from 'react';
 
 const Scroll = () => {
