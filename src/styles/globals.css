@@ -85,14 +85,13 @@ html{
  }
  .btn{
   padding: 0.5rem 1rem;
-  background-color: #0070f3;
+  background-color: #39cc34;
   color: #fff;
   border: none;
-  border-radius: 4px;
   transition: background-color 0.3s ease;
  }
  .btn:hover{
-  background-color: #005bb5;
+  background-color: #21b500;
  }
 
 
@@ -162,7 +161,9 @@ html{
   position: relative;
 
 }
-
+.list-items:hover{
+  text-decoration: underline;
+}
 .list-items::after{
   content: " ";
   width: 0;
@@ -189,14 +190,6 @@ html{
 .name:hover{
 color: rgb(32, 31, 31);
 }
-.phone{
-  color: #060606;
-  height: fit-content;
-  text-align: center;
-}
-
-
-
 
 .HeroSec{
   display: flex;

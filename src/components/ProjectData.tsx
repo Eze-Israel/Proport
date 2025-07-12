@@ -53,16 +53,16 @@ const Products: Product[] = [
         category:"Web App",
         Link: "https://eze-israel.github.io/BooksLB/",
     },
-    // {
-    //  id:5,
-    //  name:"CODEMIA WEBSITE",
-    //  image: "/images/Electronics-Mart-eCommerce.jpg",
-    //  Details: "Built and Hosted An E-commerce website, a replica of Jumia. Hosted on FireBase",
-    //  description: "A website that showcases my expertise in building Ecommerce Websites, Cart, UserAuth, Checkout etc ",
-    //  TechStack: ['HTML5','REACTJS', 'REACT-ROUTER', 'CSS3', 'JavaScript', 'TypeScript', 'Redux-ToolKit'],
-    //  category:"Ecommerce",
-    //  Link:"https://codemia-39dd2.web.app",
-    // },
+    {
+     id:5,
+     name:"Next Imperial Limited",
+     image: "/images/next1.png",
+     Details: "Built Mainly with Nextjs Typscript and TailwindCss",
+     description: "This is a Tech Training School Website.",
+     TechStack: ['HTML5','NEXTJS', 'CSS3', 'JavaScript', 'TypeScript', "TAILWINDCSS", "FRAMER"],
+     category:"Website",
+     Link:"https://nextimperial.com",
+    },
    
     {
      id:6,

@@ -61,7 +61,7 @@ const FormSetUp = () => {
         <div className="text-center">
           <button
             type="submit"
-            className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-red-900 transition-all duration-300 transform hover:scale-105"
+            className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-green-900 transition-all duration-300 transform hover:scale-105"
           >
             Send Message
           </button>

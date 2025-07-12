@@ -32,9 +32,9 @@ export default function ProjectCard({
                 <h3 className="text-xl font-semibold mb-2">
                {name}
                 </h3>
-                <p className="text-gray-600 m-4"><b className="text-blue-500">Description:</b> {description}</p>
-                <p className="text-gray-600 m-4"><b className="text-blue-500">Details:</b>{Details}</p>
-                <p className="text-gray-600 m-4"><b className="text-blue-500">Category:</b>{category}</p>
+                <p className="text-gray-600 m-4"><b className="text-green-500">Description:</b> {description}</p>
+                <p className="text-gray-600 m-4"><b className="text-green-500">Details:</b>{Details}</p>
+                <p className="text-gray-600 m-4"><b className="text-green-500">Category:</b>{category}</p>
                 {/* <a href={Link}><button className="btn">View Demo</button></a> */}
                 <div className="flex flex-wrap gap-2">
                     {TechStack.map((tech, index) => (
@@ -45,7 +45,7 @@ export default function ProjectCard({
 
                         </span>
                     ))}
-                    <a href={Link}><button className="btn">View Demo</button></a>
+                    <a href={Link}><button className="btn rounded-lg">View Demo</button></a>
 
                 </div>
 

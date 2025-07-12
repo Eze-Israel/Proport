@@ -4,12 +4,10 @@ const TextAimation = () => {
   return (
     <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
         'Front-End Developer | UI/UX Enthusiast | Problem Solver',
-        7000, // wait 1s before replacing "Mice" with "Hamsters"
-        // Same substring at the start will only be typed out once, initially
+        7000, 
         'My name is Eze Isreal Oluomachukwu',
-        6000, // wait 1s before replacing "Mice" with "Hamsters"
+        6000, 
         'I am a professional Front-end Developer',
         6000,
         'I develop Scalable and Responsive Websites',

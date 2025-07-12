@@ -29,8 +29,8 @@ const Header:  React.FC = () => {
       <div className="mobile-icon" onClick={handleMobileChange}>
         {mobile ? <FaBars /> : <FaTimes />}
       </div>
-      
-      <p className="phone p-1"><FaPhone className="phone"/> {" "}{" "}+2347061033459</p>
+
+      <div className="phone p-1 flex"><FaPhone/>+2347061033459</div>
       
             <div>
             <ul className={`${mobile ? 'nav-menu' : 'nav-menu show'}`}>
