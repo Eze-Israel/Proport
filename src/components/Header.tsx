@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { FaBars, FaTimes, FaPhone } from 'react-icons/fa'
 import Link from 'next/link'
+import ThemeToggle from './ThemeToggle';
 
 
 
@@ -30,7 +31,7 @@ const Header:  React.FC = () => {
         {mobile ? <FaBars /> : <FaTimes />}
       </div>
 
-      <div className="phone p-1 flex"><FaPhone/>+2347061033459</div>
+      {/* <div className="phone p-1 flex"><FaPhone/>+2347061033459</div> */}
       
             <div>
             <ul className={`${mobile ? 'nav-menu' : 'nav-menu show'}`}>
@@ -42,11 +43,13 @@ const Header:  React.FC = () => {
             <Link href="#contact" onClick={handleMobileChange}> <li className='list-items p-1'>Contact</li></Link> 
             <Link href="MyResume" onClick={handleMobileChange}> 
             <li className='list-items bg-green-300 rounded-md p-1'>Download Cv</li></Link> 
+            
             </ul>
             </div>
       
 
       
+           <ThemeToggle/>
              
     </div>
   )
