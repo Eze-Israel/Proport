@@ -1,5 +1,5 @@
 import React from 'react'
-import Products from '@/components/ProjectData'
+import Products from './ProjectData'
 import SectionTitle from './SectionTitle';
 import ProjectCard from './ProjectCard';
 import { useState } from 'react';
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
      transition: {duration: 0.3},
    };
   return (
-    <section className='py-8 md:py-16 bg-gray-50  '>
+    <section className='py-8 md:py-16 bg-gray-50  md:px-[100] px-5'>
     <motion.h1
             initial={{x: -300}}
             whileInView={{
@@ -46,8 +46,8 @@ const Projects: React.FC = () => {
           {categories.map(category => (
             <button key={category}
             onClick={() => setActiveCategory(category)}
-            className={`px-4 py-2 rounded flex sm:col ${activeCategory === category 
-              ? 'bg-orange-500 text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+            className={`md:px-4 p-1 md:py-2 rounded flex sm:col ${activeCategory === category 
+              ? 'bg-green-500 text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
             }`}
             >
               {category}

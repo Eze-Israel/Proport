@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-green-300 py-10 px-6 md:px-12 lg:px-20 border-t-2 border-green-300 mt-2">
+    <footer className="bg-white text-gray-700 py-10 px-6 md:px-12 lg:px-20 border-t-2 border-green-300 mt-2">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo and Bio */}
         <div>

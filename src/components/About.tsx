@@ -1,5 +1,6 @@
 import ProgressBar from "./ProgressBar"
 
+
 const About = () => {
   
   return (
@@ -9,7 +10,7 @@ const About = () => {
       
         <div >
           <h2 className="text-center text-2xl md:text-4xl"><b className="text-red-900">A</b>bout<b className="text-red-900"> M</b>e</h2>
-        <p className="text-center"> Hey Dear,👋🏻 Welcome to my portfolio website. Kindly visit my CV page to know more about me.</p>
+        <p className="text-center"> Hello👋🏻, Welcome to my portfolio website. I am Eze Israel, A Professional Front-End developer with over 3 years experience in crafting user Experience, translating wireframes into reality, integrating backend tools and collaborating efficiently to deliver High quality and funtional Websites and WebApps. Kindly visit my CV page to know more about me.</p>
         <h2 className="text-center underline"> Professional Skill Ratings</h2>
         <p></p>
            
@@ -45,9 +46,11 @@ const About = () => {
              </span>
         </div>
 
-
+     
+       
       </div>
   )
 }
 
 export default About
+

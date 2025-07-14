@@ -1,13 +1,13 @@
 
 const FormSetUp = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br  flex items-center justify-center ">
+    <section className="min-h-screen bg-gradient-to-br  flex items-center justify-center px-4">
       <form
         action="https://formspree.io/f/mqazqpyq"
         method="POST"
         className="bg-white shadow-2xl rounded-3xl p-8 w-full max-w-2xl animate-fadeInUp border-4 border-green-300"
       >
-        <h1 className="text-3xl font-bold text-center text-green-700 mb-2">Send Me a Message</h1>
+        <h1 className="md:text-3xl text-lg font-bold text-center text-green-700 mb-2">Send Me a Message</h1>
         <p className="text-center text-gray-600 mb-8">
           Kindly reach out through the form below. I will get back to you shortly.
         </p>

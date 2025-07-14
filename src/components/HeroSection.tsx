@@ -59,7 +59,7 @@ const HeroSection = () => {
           className="mx-auto mb-6"
         >
           <Image
-            src="/images/KingT1.png" 
+            src="/images/prof3.jpg" 
             alt="Eze Israel"
             width={360}
             height={360}
